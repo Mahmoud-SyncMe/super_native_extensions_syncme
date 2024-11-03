@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:collection/collection.dart';
 import 'package:flutter/foundation.dart';
-import 'package:super_native_extensions/raw_clipboard.dart' as raw;
+import 'package:super_native_extensions_syncme/raw_clipboard.dart' as raw;
 
 import 'system_clipboard.dart';
 import 'format.dart';

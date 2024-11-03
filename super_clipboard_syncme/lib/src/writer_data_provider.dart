@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:super_clipboard/src/future_util.dart';
-import 'package:super_clipboard/src/util.dart';
-import 'package:super_native_extensions/raw_clipboard.dart' as raw;
+import 'package:super_clipboard_syncme/src/future_util.dart';
+import 'package:super_clipboard_syncme/src/util.dart';
+import 'package:super_native_extensions_syncme/raw_clipboard.dart' as raw;
 
 import 'writer.dart';
 

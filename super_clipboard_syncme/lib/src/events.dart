@@ -1,10 +1,10 @@
-import 'package:super_native_extensions/raw_clipboard.dart' as raw;
+import 'package:super_native_extensions_syncme/raw_clipboard.dart' as raw;
 
 import 'reader.dart';
 import 'writer.dart';
 import 'writer_data_provider.dart';
 import 'system_clipboard.dart';
-export 'package:super_native_extensions/raw_clipboard.dart' show TextEvent;
+export 'package:super_native_extensions_syncme/raw_clipboard.dart' show TextEvent;
 
 /// Event dispatched during a browser paste action (only available on web).
 /// Allows reading data from clipboard.

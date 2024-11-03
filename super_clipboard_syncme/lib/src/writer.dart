@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
-import 'package:super_native_extensions/raw_clipboard.dart' as raw;
-export 'package:super_native_extensions/raw_clipboard.dart'
+import 'package:super_native_extensions_syncme/raw_clipboard.dart' as raw;
+export 'package:super_native_extensions_syncme/raw_clipboard.dart'
     show
         VirtualFileProvider,
         VirtualFileEventSinkProvider,

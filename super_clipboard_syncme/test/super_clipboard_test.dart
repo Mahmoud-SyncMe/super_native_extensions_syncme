@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:super_clipboard/src/format_conversions.dart';
-import 'package:super_clipboard/src/format.dart';
-import 'package:super_clipboard/src/formats_base.dart';
-import 'package:super_native_extensions/raw_clipboard.dart';
+import 'package:super_clipboard_syncme/src/format_conversions.dart';
+import 'package:super_clipboard_syncme/src/format.dart';
+import 'package:super_clipboard_syncme/src/formats_base.dart';
+import 'package:super_native_extensions_syncme/raw_clipboard.dart';
 
 class SimpleProvider extends PlatformDataProvider {
   final Object data;

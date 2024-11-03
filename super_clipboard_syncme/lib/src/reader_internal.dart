@@ -11,7 +11,7 @@ import 'reader_model.dart';
 import 'reader_value.dart';
 import 'standard_formats.dart';
 import 'reader.dart';
-import 'package:super_native_extensions/raw_clipboard.dart' as raw;
+import 'package:super_native_extensions_syncme/raw_clipboard.dart' as raw;
 
 extension FormatExtension<T extends Object> on DataFormat<T> {
   List<String> get decodingFormats {

@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:typed_data';
 
 import 'package:meta/meta.dart';
-import 'package:super_native_extensions/raw_clipboard.dart' as raw;
+import 'package:super_native_extensions_syncme/raw_clipboard.dart' as raw;
 
 import 'future_util.dart';
 import 'reader.dart';

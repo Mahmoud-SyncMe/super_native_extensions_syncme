@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:typed_data';
 
 import 'reader.dart';
-import 'package:super_native_extensions/raw_clipboard.dart' as raw;
+import 'package:super_native_extensions_syncme/raw_clipboard.dart' as raw;
 
 Future<Uint8List> _readAll(Stream<Uint8List> stream) {
   final completer = Completer<Uint8List>();
